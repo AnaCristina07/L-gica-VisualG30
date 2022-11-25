@@ -1,0 +1,41 @@
+Algoritmo "Exercicio28"
+// Disciplina   : [Lógica de Programação com JavaScript]
+// Professor   : Jailson
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Ana Cristina
+// Data atual  : 28/09/2022
+Var
+   // Seção de Declarações das variáveis
+   valor1,valor2,valor3:inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   mudacor("amarelo","frente")
+   escreval("Digite um valor: ")
+   leia(valor1)
+   escreval("Digite um valor: ")
+   leia(valor2)
+   escreval("Digite um valor: ")
+   leia(valor3)
+   se (valor1<valor2) e (valor2<valor3) entao
+      Escreval("O maior valor é: ",valor3)
+   senao
+      se (valor1<valor2) e (valor2>valor3) entao
+         Escreval("O maior valor é: ", valor2)
+      senao
+         se (valor1>valor2) e (valor2<valor3) entao
+            Escreval("O maior valor é: ", valor3)
+         senao
+            se (valor1<valor2) e (valor2>valor3) entao
+               Escreval("O maior valor é: ", valor2)
+            senao
+               se (valor1>valor2) e (valor2<valor3) entao
+                  Escreval("O maior valor é: ", valor1)
+               senao
+                  Escreval("O maior valor é: ", valor1)
+               fimse
+            fimse
+         fimse
+      fimse
+   fimse
+Fimalgoritmo
